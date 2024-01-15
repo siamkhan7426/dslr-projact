@@ -6,6 +6,8 @@
     font-family: 'Poppins', sans-serif;
     font-family: 'Manrope', sans-serif;
 }
+
+/* navbar star */
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -43,6 +45,7 @@ font-size: 24px;
 font-weight: 700;
 
 }
+
 .main-container{
     display: flex;
     margin-top: 9rem;
@@ -53,8 +56,10 @@ font-weight: 700;
 }
 .main-img img{
     width: 80%;
+    margin-left: 7.5rem;
    
 }
+
 .main-hed-title{
 color: #3A3A3A;
 font-feature-settings: 'clig' off, 'liga' off;
@@ -69,5 +74,30 @@ font-feature-settings: 'clig' off, 'liga' off;
 font-family: Poppins;
 font-size: 16px;
 font-weight: 600;
+margin-top: 1rem;
 
+}
+.btn-primary{
+padding: 10px 24px;
+gap: 8px;
+border-radius: 41px;
+background: #E02C6D;
+
+}
+button{
+ color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+ margin-top:1rem;
+}
+/* navbar end */
+
+/* main-shhoping site */
+.shopping-site{
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
