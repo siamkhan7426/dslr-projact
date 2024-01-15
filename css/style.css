@@ -48,11 +48,15 @@ font-weight: 700;
 
 .main-container{
     display: flex;
-    margin-top: 9rem;
+    margin-top: 1.8rem;
     margin-left:6.5rem ;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+.main-img{
+ border-radius: 475px;
+border: 3px solid var( #F1E4FF);
 }
 .main-img img{
     width: 80%;
@@ -98,6 +102,11 @@ font-weight: 700;
 .shopping-site{
     background: #FFF;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     flex-direction: row;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-left: 14rem;
+    margin-right: 14rem;
+   
 }
